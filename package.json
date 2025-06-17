@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "npx vite build",
+    "build": "node_modules/.bin/vite build",
+    "vercel-build": "npm install && npm run build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
