@@ -83,8 +83,7 @@ npm run build
 - **Mock API**: Using mockapi.io for simplicity - in production, you'd use a real backend
 - **Client-side Only**: No authentication or user management implemented
 - **Basic Error Handling**: Simple error messages - production apps would need more robust error handling
-- **No Pagination**: All notes loaded at once - would need pagination for large datasets
-- **No Search/Filter**: Not implemented in this version but would be essential for many notes
+- **No Filter**: Not implemented in this version but would be essential for many notes
 
 ## ⏰ Future Enhancements
 
